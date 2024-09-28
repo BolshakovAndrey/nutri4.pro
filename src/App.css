@@ -40,3 +40,24 @@
 .read-the-docs {
   color: #888;
 }
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  padding: 10px 20px;
+  position: fixed; /* Фиксируем шапку наверху */
+  top: 0;
+  left: -50px;
+  z-index: 1000; /* Слой поверх основного контента */
+  /*background-color: #ffffff; !* Можно настроить фон *!*/
+}
+
+.user-button, .sign-in-button {
+  margin-left: 10px;
+}
+
+main {
+  padding-top: 60px; /* Добавим отступ сверху для основного контента */
+}
